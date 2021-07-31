@@ -1,0 +1,7 @@
+kind of data: music over time
+questions: what impact did COVID-19 have on music?
+		-how did the numerical metrics change 2018-2019 vs. 2020
+		-did music release volume decrease or increase as a result of COVID?
+		-
+
+source: spotify dataset on kaggle + spotify API
