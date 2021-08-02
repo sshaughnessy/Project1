@@ -1,7 +1,15 @@
-kind of data: music over time
-questions: what impact did COVID-19 have on music?
-		-how did the numerical metrics change 2018-2019 vs. 2020
-		-did music release volume decrease or increase as a result of COVID?
-		-
+PROJECT PROPOSAL
 
-source: spotify dataset on kaggle + spotify API
+Kind of data: Spotify Track Data
+
+source: Spotify Dataset 1922-2021 (Audio features of ~600k songs released in between 1922 and 2021)
+url: https://www.kaggle.com/yamaerenay/spotify-dataset-19212020-160k-tracks?select=data_by_genres_o.csv
+
+Questions:
+Comparing spotify data from the past five years, what impact did COVID-19 on music streaming?
+
+Did the nature of music released on Spotify change during the COVID-19 Pandemic?
+- Did the volume of music released increase or decrease during the COVID-19 Pandemic?
+- Did the danceability, positivity (valence), energy, instrumentalness, tempo, and explicitness of music change during the COVID-19 Pandemic?
+Did the nature of users music streaming change during the COVID-19 Pandemic?
+- Did these measures (danceability, positivity (valence), energy, instrumentalness, tempo, and explicitness) affect the popularity score of music streamed?
