@@ -38,24 +38,25 @@ Various Metrics include: (Metrics are scored in scale of 0 (low confidence) to 1
 •	Explicitness: Whether a song contains explicit content.
 
 4.	What are specific questions we addressed?
-1.	Did the various metrics of music change over the last 5 years? 
-2.	Did the various metrics of music change during the COVID-19 Pandemic?
-3.	Did the metrics of tracks streamed change in the last 5 years?
-4.	Did the metrics of tracks streamed change during COVID-19?
+•	Did the various metrics of music change over the last 5 years? 
+•	Did the various metrics of music change during the COVID-19 Pandemic?
+•	Did the metrics of tracks streamed change in the last 5 years?
+•	Did the metrics of tracks streamed change during COVID-19?
 
 5.	How did we clean the data?
 Raw Data: Random tracks released from 1922 to 2021 (> 600k tracks)
 Basic Clean-Up
-1.	Dropped duplicate rows, removed all “Remastered” songs, converted tempo column to 0-1 scale
-2.	Narrowed Date Range: 2015-2021
-3.	Determined 7 Metrics for Analysis
+•	Narrowed Date Range: 2015-2021
+•	Dropped duplicate rows, removed all “Remastered” songs, converted tempo column to 0-1 scale
+•	Determined 7 Metrics for Analysis
 Dropped extraneous metrics not useful to our analysis (ID, ID_Artist, key, mode, time_signature)
-4.	Dropped Spoken Word Tracks
+•	Dropped Spoken Word Tracks
 Dropped tracks with “speechiness” scores over 0.66, since tracks over 0.66 are not considered music.
-5.	Created variables for Month, Quarter, and Year, from release dates for analysis
+•	Created variables for Month, Quarter, and Year, from release dates for analysis
 
 6.	What is the analysis?
 Main Analysis: Music released in January 2020 through April 2021 was statistically different than music released in 2015-2019, possibly a result of the COVID-19 pandemic.
+
 Question 1: 
 Most metrics stayed the same over the last 5 years. 
 •	Explicitness increased the most significantly. 
@@ -74,12 +75,12 @@ Danceability and Explicit metric scores changed most significantly
 The change in scores indicate that songs streamed during Covid were more danceable and explicit  
 
 7.	What are additional questions we'd want to address / next steps to accomplish that?
-1.	Was there a change in music consumption (Spotify subscription trends) during the pandemic?
-2.	How did music trends change by genre?
-3.	Was there a change in user demographics and differences in music that they listen to?
-4.	How many new artists came in Spotify?
-5.	Change in existing artist popularity?
-6.	What are songs in playlists with COVID title?
+•	Was there a change in music consumption (Spotify subscription trends) during the pandemic?
+•	How did music trends change by genre?
+•	Was there a change in user demographics and differences in music that they listen to?
+•	How many new artists came in Spotify?
+•	Change in existing artist popularity?
+•	What are songs in playlists with COVID title?
 In order to answer these questions, we would need additional data about Spotify subscriptions, genres released/streamed, user demographics, artist information, and user playlist data. 
 
 8.	Analysis and Data Images (found in images folder)
