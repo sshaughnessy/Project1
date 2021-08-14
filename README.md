@@ -29,21 +29,13 @@ Null Hypothesis: Music released in January 2020 through April 2021 was not stati
 Various Metrics include: (Metrics are scored in scale of 0 (low confidence) to 1 (high confidence) except for tempo and explicitness)
 
 •	Danceability: How suitable a track is for dancing based on a combination of musical elements.
-
 •	Speechiness: Speechiness detects the presence of spoken words in a track.
-
 •	Acousticness: A confidence measure of whether the track is acoustic (i.e. the track was performed acoustically, without electronic instruments).
-
 •	Energy: A perceptual measure of intensity and activity (Fast, loud, noisy).
-
 •	Instrumentalness: A measure that predicts whether a track contains no vocals, not counting mouth sounds like "ooh" and "aah."
-
 •	Liveness: Detects the presence of an audience in the recording.
-
 •	Valence: The musical positiveness conveyed by a track. 
-
 •	Tempo: The overall estimated beats per minute (BPM).
-
 •	Explicitness: Whether a song contains explicit content.
 
 4.	What are specific questions we addressed?
